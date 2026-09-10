@@ -29,9 +29,14 @@ function Sidebar() {
         ))}
       </nav>
 
-      <a className="cv-download" href={profile.cvUrl} download>
-        Descargar CV
-      </a>
+      <a
+  className="cv-download"
+  href={profile.cvUrl}
+  target="_blank"
+  rel="noreferrer"
+>
+  Ver CV
+</a>
 
       <div className="sidebar-status">
         <span

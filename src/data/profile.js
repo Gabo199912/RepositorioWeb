@@ -4,9 +4,9 @@ export const profile = {
   role: 'Backend Developer',
   location: 'Guatemala, Guatemala',
   photoUrl: `${import.meta.env.BASE_URL}cvPhoto.jpg`,
-  cvUrl: '/cv.pdf', // agrega tu CV real como public/cv.pdf
+  cvUrl: `${import.meta.env.BASE_URL}cvAngelVasquez.pdf`,  
   available: true, // cambia a false si no estás buscando proyectos
-statement:
+  statement:
   'Desarrollo aplicaciones backend y APIs REST utilizando Java y Spring Boot',
 
 bio:
