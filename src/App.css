@@ -72,6 +72,15 @@ button:focus-visible {
   border-right: 1px solid var(--line);
 }
 
+.sidebar-photo {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  margin-bottom: 16px;
+  filter: grayscale(0.3);
+}
+
 .sidebar-name {
   font-family: var(--font-mono);
   font-size: 1rem;
@@ -109,6 +118,24 @@ button:focus-visible {
 .sidebar-nav a:hover {
   color: var(--text);
   border-bottom-color: var(--accent);
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  padding: 8px 14px;
+}
+
+.cv-download:hover {
+  background: var(--accent);
+  color: var(--bg);
 }
 
 .sidebar-status {
@@ -356,6 +383,12 @@ button:focus-visible {
   .sidebar-nav {
     flex-direction: row;
     gap: 20px;
+  }
+
+  .sidebar-photo {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 8px;
   }
 
   .project-row {

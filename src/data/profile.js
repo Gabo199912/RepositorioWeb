@@ -3,6 +3,8 @@ export const profile = {
   name: 'Angel Gabriel Vásquez Argueta',
   role: 'Backend Developer',
   location: 'Guatemala, Guatemala',
+  photoUrl: 'public/cvPhoto.jpg', // pon tu foto real en public/photo.jpg y cambia esto a '/photo.jpg'
+  cvUrl: '/cv.pdf', // agrega tu CV real como public/cv.pdf
   available: true, // cambia a false si no estás buscando proyectos
 statement:
   'Desarrollo aplicaciones backend y APIs REST utilizando Java y Spring Boot',

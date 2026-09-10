@@ -11,6 +11,11 @@ function Sidebar() {
   return (
     <header className="sidebar">
       <div className="sidebar-top">
+        <img
+          className="sidebar-photo"
+          src={profile.photoUrl}
+          alt={`Foto de ${profile.name}`}
+        />
         <p className="sidebar-name">{profile.name}</p>
         <p className="sidebar-role">{profile.role}</p>
         <p className="sidebar-location">{profile.location}</p>
@@ -23,6 +28,10 @@ function Sidebar() {
           </a>
         ))}
       </nav>
+
+      <a className="cv-download" href={profile.cvUrl} download>
+        Descargar CV
+      </a>
 
       <div className="sidebar-status">
         <span
