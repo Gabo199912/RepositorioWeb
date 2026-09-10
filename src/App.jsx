@@ -29,13 +29,12 @@ function Sidebar() {
         ))}
       </nav>
 
-      <a
+<a
   className="cv-download"
   href={profile.cvUrl}
-  target="_blank"
-  rel="noreferrer"
+  download="Angel-Vasquez-CV.pdf"
 >
-  Ver CV
+  Descargar CV
 </a>
 
       <div className="sidebar-status">
